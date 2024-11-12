@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&family=Tangerine:wght@400;700&display=swap');
+
+section{
+  background-color: #e3e0f0;
+  padding-bottom: 1em;
+}
+
+h3 {
+  margin-left: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.card{
+  margin-bottom: 1em;
+  background-color: #FFBED2;
+}
+
+button{
+  border-radius: 10px;
+
+  background-color: black;
+  color: white;
+}

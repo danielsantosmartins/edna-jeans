@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&family=Tangerine:wght@400;700&display=swap');
+
 .instagram-logo {
   background-image: linear-gradient(to bottom right, #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d,#f56040,#f77737,#fcaf45,#ffdc80);
   color: white;
@@ -10,7 +12,45 @@
   color: #25D366;
 }
 
+.contato{
+background-color: #FF79BB;
+color: white;
+padding-top: 1em;
+padding-bottom: 1em;
+
+  h3{
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  p{
+    margin-left: 2.5em;
+    margin-bottom: 0em;
+
+  }
+}
+
+.redes{
+  background-color: #e3e0f0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+
+  h5{
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 

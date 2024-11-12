@@ -1,4 +1,27 @@
 section{
-  background-color: #F600B5;
+  background-color: #FF79BB;
   color: white;
+  padding-top: 2px;
+}
+
+ul{
+  list-style-type: none;
+  li{
+    margin: 0.7em 0.5em 0.7em 0em;
+  }
+}
+
+/* Ocultar a imagem em telas com largura maior que 768px */
+@media (min-width: 768px) {
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+
+    img {
+      max-height: 100%;
+    }
+  }
 }
